@@ -33,6 +33,7 @@
       margin-bottom: 20px;
       border-radius: 8px;
       display: none;
+      white-space: pre-line;
     }
     .passage-box.active {
       display: block;
@@ -168,17 +169,24 @@
 
     <!-- Passages -->
     <div class="passage-box active" id="passage-1">
-      <p>Ini adalah teks panjang yang digunakan untuk soal 1 dan 2. Teks ini akan tetap ditampilkan saat pengguna berpindah antar soal yang memakai passage ini.</p>
+      The old lighthouse keeper, Thomas Blackwood, had lived on the storm-battered isle of Aeridor for fifty years.
+
+His only companions were the circling gulls and the relentless roar of the sea. His hands, gnarled and weathered like ancient driftwood, knew every gear and lens of the great lamp that was his life’s work.
+
+One autumn, a series of unusually violent storms lashed the coast. The waves, like angry giants, clawed at the cliffs, and the wind howled with a mournful fury. Thomas, despite his aching bones, kept the light burning, a solitary beacon against the encroaching darkness.
     </div>
+
     <div class="passage-box" id="passage-2">
-      <p>Ini adalah teks baru yang digunakan untuk soal 3. Ini menunjukkan bagaimana beberapa soal bisa memiliki teks yang berbeda.</p>
+      Anya Sharma was a historian, but not the kind you’d find in dusty university archives.
+
+She specialized in "lost histories," the stories that slipped through the cracks of official records. Her latest obsession was the legendary Sunstone of Amara, a relic said to hold the collective knowledge of a forgotten civilization.
+
+Most academics considered it a myth, a fanciful tale told to children. But Anya had found a clue: a faded, 16th-century map tucked inside an old mariner’s journal.
     </div>
 
     <!-- Soal 1 -->
     <div class="question-block active" id="question-1" data-passage="passage-1">
-      <div class="question-text">
-        Apa tujuan utama Thomas Blackwood di pulau Aeridor?
-      </div>
+      <div class="question-text">Apa tujuan utama Thomas Blackwood di pulau Aeridor?</div>
       <label class="answer-option"><input type="radio" name="answer-1"> Menjaga lampu mercusuar.</label>
       <label class="answer-option"><input type="radio" name="answer-1"> Meneliti badai laut.</label>
       <label class="answer-option"><input type="radio" name="answer-1"> Membuat kotak kayu.</label>
@@ -191,9 +199,7 @@
 
     <!-- Soal 2 -->
     <div class="question-block" id="question-2" data-passage="passage-1">
-      <div class="question-text">
-        Siapa tokoh utama dalam teks?
-      </div>
+      <div class="question-text">Siapa tokoh utama dalam teks?</div>
       <label class="answer-option"><input type="radio" name="answer-2"> Elara</label>
       <label class="answer-option"><input type="radio" name="answer-2"> Thomas</label>
       <label class="answer-option"><input type="radio" name="answer-2"> Burung camar</label>
@@ -206,9 +212,7 @@
 
     <!-- Soal 3 -->
     <div class="question-block" id="question-3" data-passage="passage-2">
-      <div class="question-text">
-        Apa teknologi utama yang ditemukan?
-      </div>
+      <div class="question-text">Apa teknologi utama yang ditemukan?</div>
       <label class="answer-option"><input type="radio" name="answer-3"> Mesin waktu</label>
       <label class="answer-option"><input type="radio" name="answer-3"> Perangkat medis</label>
       <label class="answer-option"><input type="radio" name="answer-3"> Kamera pengintai</label>
